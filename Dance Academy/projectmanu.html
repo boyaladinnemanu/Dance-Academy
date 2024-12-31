@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="projectmanu.css">
+    <title>Dance Academy</title>
+    
+</head>
+c
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" id="item5" href="#">Dance Academy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="item1" href="#wcuSection">Why Choose Us?<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="item2" href="#exploreSection">Explore</a>
+                    <a class="nav-link" id="item3" href="#aboutSection">About Us</a>
+                    <a class="nav-link" id="item4" href="#followSection">Follow Us</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="baner d-flex flex-column justify-content-center">
+        <div class="text-center">
+            <h1 class="heading mb-4">Book Your Dance Class</h1>
+            <P class="para mb-5">Choose your style</P>
+            <div>
+                
+                <button class="custom" onclick="registar();">Register Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wuc-heading">Why Choose Us?</h1>
+                    <p class="wcu-discription">We teach you original Classic verious famous Dances.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wuc-card p-5 mb-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/40/40148.png?w=740&t=st=1692008763~exp=1692009363~hmac=debc27601fe2dd1ddeb5218c88a92da2156cbbeb97210b0592e16685b2c76435" alt="" class="img-properties" />
+                        <h1 class="wcu-card-head mt-3">Mentor Service</h1>
+                        <p class="wcu-card-discription"><span class="offers">24X7 Available</span>. We have Experians Mentors are there. All Mentors are carefully give you
+                            nothing less than perfect</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wuc-card p-5 mb-3">
+                        <img src="https://img.freepik.com/free-icon/dollar-price-tag_318-10083.jpg?w=740&t=st=1692005377~exp=1692005977~hmac=816f84e8c4c498a53e0610cba1c98d8d74ddab965b6eea48e9ecbd605ca50a65" alt="" class="img-properties" />
+                        <h1 class="wcu-card-head mt-3">Best Offers</h1>
+                        <p class="wcu-card-discription">Offers upto <span class="offers">50% off</span> on instant booking and stay Tuned for Exclusive Offers</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wuc-card p-5 mb-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1244/1244348.png?w=740&t=st=1692008813~exp=1692009413~hmac=6e767c7bb489d60143d6aa7360055742a5400524144d32abbb64febc86d81f3a" alt="" class="img-properties" />
+                        <h1 class="wcu-card-head mt-3">Branches</h1>
+                        <p class="wcu-card-discription">Hyderabad , chinnai, Benguluru, Kadapa, Tirupathi,Kurnool, our main Branch at <span class="offers"> Jammalamadugu - 516434</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="explore pt-5 pb-5" id="exploreSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="explore-head">Explore Dances</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/ballerina-posing-pointe-shoes-black-wooden-pavilion_155003-4023.jpg?w=360&t=st=1691996782~exp=1691997382~hmac=0cf369489081a71c7e8f9223856b53ceed306a6a238bc0d161698a720c1a5eca" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Ballarina</h1>
+                        <a class="item-link" href="manuproject2.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://static.javatpoint.com/gk/images/classical-dances-of-india1.jpg" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Bharatanatyam</h1>
+                        <a class="item-link" href="manuproject3.html"> View</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="http://www.balletindia.com/media/content_images/new_pics/About_Us_1.jpg" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Ballet Dance</h1>
+                        <a class="item-link" href="manuproject4.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://media.istockphoto.com/id/1263835216/photo/young-breakdancer-guy-stands-on-one-hand-dancing-hip-hop-in-neon-light-dance-school-poster.webp?s=1024x1024&w=is&k=20&c=_sKJz4mRHfIA_bDZ_FNXFv5oiBFi2M0XmwKU2eoixq4=" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Hip Hop</h1>
+                        <a class="item-link" href="manuproject5.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5c7411c994d71a1340a9db29/1564114715094-ZSU1JIR2EATVPL65604V/active-ballroom-dance-270789.jpg?format=1500w" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Salsa</h1>
+                        <a class="item-link" href="manuproject6.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/one-unit-beautiful-contemporary-ballroom-dancers-isolated-grey-wall-sensual-proffessional-artists-dancing-walz-tango-slowfox-quickstep-flexible-weightless_155003-28247.jpg?w=360&t=st=1692013639~exp=1692014239~hmac=6173018239abf1e1e29806491008ad5460f39415cfd003391fc492b8e508f6c8" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Tango</h1>
+                        <a class="item-link" href="manuproject7.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/princess-beautiful-contemporary-ballroom-dancer-isolated-grey-wall-sensual-proffessional-artist-dancing-walz-tango-slowfox-quickstep-flexible-weightless_155003-28249.jpg?w=360&t=st=1692013774~exp=1692014374~hmac=56bfe8dcf90932a8129f663adae02265f836def5ebbd0c5b5da6c5462b6e1f35" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Ballroom</h1>
+                        <a class="item-link" href="manuproject8.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/full-shot-gorgeous-dancer-bending-back_23-2148235408.jpg?w=360&t=st=1692013901~exp=1692014501~hmac=567bdaa3fa5dd705f3f1dc0f736acc4e6dee5750cc87c793af6e1bdcbe418e2d" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Flamenco</h1>
+                        <a class="item-link" href="manuproject9.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow card-border p-3 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Kuchipudi_Performer_DS.jpg" alt="" class="item-image  w-100" />
+                        <h1 class="img-title">Kuchipudi</h1>
+                        <a class="item-link" href="manuproject10.html"> View </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d0b200" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="healthy-food-section pt-5 pb-5" id="aboutSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://img.freepik.com/free-vector/k-pop-band-concept-illustration_114360-3260.jpg?w=740&t=st=1692018059~exp=1692018659~hmac=c8d1307e8ef8dbce5c969959c3778a2be298fc7f3171ebb22ad44f7712f78aa5" class="healthy-food-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="healthy-food-section-heading">
+                        About Dancing Academy
+                    </h1>
+                    <p class="healthy-food-section-description">
+                        The Dance Academy, established since October 1988 aims to provide students with a professional dance curriculum exposing them to well structured training programmes in the various dance disciplines. Students are encouraged to develop their dance skills and performance qualities to the maximum.
+                        Students in classical ballet, girls and boys, can enroll as of the age of three years. The school follows the Royal Academy of Dance London Syllabus.
+                        At the tender age of three, classes are structured with a 'recreational' focus.
+                    </p>
+                    <a class="custom-button" href="manuprojectmp.html">Watch Video</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delivery-and-payment-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="text-center">
+                        <img src="https://img.freepik.com/free-vector/gradient-dance-school-labels-template_23-2149444206.jpg?w=740&t=st=1692216686~exp=1692217286~hmac=7e25ff641ea929f6d745f72255cc74fd5336c772018125f5b31a77711115b3e4" class="delivery-and-payment-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <h1 class="delivery-and-payment-section-heading">
+                        Mentors
+                    </h1>
+                    <p class="delivery-and-payment-section-description">
+                       Here you can know all details of our Dance Teachers. Like their Name and Experiances, how much their take money 				per hour and after that you can fill the Registration Form provided by Dance Academy. 
+                    </p>
+                    <button class="custom-button" onclick="registar();">Register now</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="thanking-customers-section-heading">
+                        Thank you for being a valuable customer to us.
+                    </h1>
+                    <p class="thanking-customers-section-description">
+                        We have a surprise gift for you
+                    </p>
+                    <div class="d-md-none">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                    </div>
+		    <div>
+                    <!-- Button trigger modal -->
+<button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+  Gift Redeem
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title gift-title" id="exampleModalLabel">Gift Voucher</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://img.freepik.com/free-vector/lovely-gift-voucher-with-red-ribbon_1361-1098.jpg?t=st=1692032350~exp=1692032950~hmac=be2b084391be44ef34aea13a6d80784cdd24e77814216431926a8e6bd3de5e8d" class="w-100">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container" >
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+		    <div class="d-flex flex-row justify-content-center ">
+                        
+                            <a href="www.twitter.com" class="mr-3">DanceA@twitter</a>
+                       
+                        
+                            <a href="www.instagram.com" class="mr-3">DanceA@insta</a>
+                        
+                            <a href="www.facebook.com" class="mr-3">DanceA@face</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="footer-name">Dance Academy</h1>
+                    <h1 class="footer-section-mail-id">DanceAcademy@Dance.com</h1>
+                    <p class="footer-section-address">
+                        Jammalamadugu - 516434, Kadapa, India.
+                    </p>
+		    <p class="footer-section-address">
+                        Contact Us - 2124567890. 212-456-7890. (212)456-7890..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+	function registar(){
+	    window.location.href="mentors.html"
+}
+</script>
+</body>
+
+</html>

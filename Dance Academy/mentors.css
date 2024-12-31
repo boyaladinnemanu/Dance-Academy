@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.mentor-section {
+    background-color: black;
+}
+
+.mentor-section-half {
+    background-color: #48f1f7;
+}
+
+.mentor-section-img {
+    width: 145px;
+}
+
+.mentor-section-heading {
+    color: #fa893e;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.mentor-section-heading2 {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mentor-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.mentor-custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+
+.wuc-head {
+    font-family: monoton;
+    font-size: 25px;
+    font-weight: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.wcu-section {
+    background-image: url('https://img.freepik.com/free-photo/young-girl-white-hoodie-dancing-hip-hop-isolated-black-background-neon-with-mixed-lights_155003-45245.jpg?w=740&t=st=1692211671~exp=1692212271~hmac=93505a214a39300aca493d5b2ec8d41788da401bbdba8486251d0d8b32c43add');
+    background-size: cover;
+}
+
+.wcu-discription {
+    font-family: Caveat;
+    font-size: 20px;
+    color: #48f1f7;
+    font-weight: bold;
+}
+
+.wuc-card {
+    background-color: white transparent;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #fa893e;
+}
+
+.wuc-card-big {
+    background-color: transparent;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #fa893e;
+    padding: 5px;
+}
+
+.img-properties {
+    height: 90px;
+    width: 80px;
+}
+
+.img-big-properties {
+    height: 200px;
+    width: 150px;
+}
+
+.wcu-card-head {
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.wcu-card-discription {
+    font-family: roboto;
+    font-size: 16px;
+    color: #7b8794;
+}
+
+
+
+.offers {
+    font-family: roboto;
+    font-style: italic;
+    font-weight: 600px;
+    font-size: 22px;
+    color: black;
+}
+
+
+#signupForm input,
+#signupForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+#signupForm input:focus,
+#signupForm select:focus {
+    outline: none;
+    border-color: #48f1f7;
+    color: white;
+}
+
+#signupForm label {
+    font-family: roboto;
+    font-weight: solid;
+    color: #5294f7;
+    font-size: 20px;
+}
+
+#dataSelection {
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.sign-btn {
+    border-color: #48f1f7;
+    border-width: 2px;
+    color: #fa893e;
+    margin-top: 4px;
+}
+
+.qpage {
+    background-color: transparent;
+}
+
+.qpage-heading {
+    font-family: roboto;
+    color: #48f1f7;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.qpage-discription-q {
+    font-family: roboto;
+    color: #fa893e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.qpage-discription-a {
+    font-family: roboto;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.qpage-discription-list {
+    font-family: roboto;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.message {
+    color: #6efa9e;
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: bold;
+}

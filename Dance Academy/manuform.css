@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.wuc-head {
+    font-family: monoton;
+    font-size: 25px;
+    font-weight: 200px;
+    color: #5294f7;
+    font-weight: bold;
+}
+
+.wcu-section {
+    background-image: url('https://img.freepik.com/free-photo/young-sportive-man-daancing-breakdance-isolared-black-backgrounf-neon-with-mixed-lights_155003-45629.jpg?w=740&t=st=1692089519~exp=1692090119~hmac=6dbbe3cb3ff6c4c6c2ae01d459439ad01ad750bf256aa9de9d3c3685c7a8b3f3');
+    background-size: cover;
+    height:108vh;
+}
+
+.wcu-discription {
+    font-family: Caveat;
+    font-size: 20px;
+    color: #48f1f7;
+    font-weight: bold;
+}
+
+.wuc-card {
+    background-color: white transparent;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #e362fc;
+}
+
+.wuc-card-big {
+    background-color: transparent;
+    text-align: center;
+    /*border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    /*border-color: #e362fc;*/
+    padding: 5px;
+}
+
+.img-properties {
+    height: 90px;
+    width: 80px;
+}
+
+.img-big-properties {
+    height: 200px;
+    width: 150px;
+}
+
+.wcu-card-head {
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.wcu-card-discription {
+    font-family: roboto;
+    font-size: 16px;
+    color: #7b8794;
+}
+
+
+
+.offers {
+    font-family: roboto;
+    font-style: italic;
+    font-weight: 600px;
+    font-size: 22px;
+    color: black;
+}
+
+
+#signupForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Change this value to control transparency */
+    /* Other input styling properties */
+}
+
+#signupForm input:focus {
+    outline: none;
+    /* Remove default focus outline */
+    border-color: #48f1f7;
+    color: white;
+    /* Set custom border color when focused */
+    /*box-shadow: 0 0 3px #48f1f7; /* Add a subtle box shadow when focused */
+}
+
+#signupForm label {
+    font-family: roboto;
+    font-weight: solid;
+    color: #5294f7;
+    font-size: 20px;
+}
+
+.sign-btn {
+    border-color: #48f1f7;
+    border-width: 2px;
+    color: #e9f765;
+    margin-top: 4px;
+}
